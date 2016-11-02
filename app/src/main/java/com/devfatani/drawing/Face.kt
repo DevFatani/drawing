@@ -10,8 +10,8 @@ class Face(radius: Float) {
     var facePaint: Paint? = null
     var mePaint: Paint? = null
 
-    var radius: Float = 10f
-    var adjust: Float = 10f
+    var radius: Float = 0f
+    var adjust: Float = 0f
 
     var mouthLeftX: Float = 0f
     var mouthRightX: Float = 0f
