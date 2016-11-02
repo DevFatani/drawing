@@ -91,8 +91,8 @@ class Face(radius: Float) {
         canvas.drawPath(this.mouthPath, this.mePaint)
 
         this.mePaint!!.style = Paint.Style.FILL
-        canvas.drawArc(this.eyeLeftRectF, 0f, 160f, true, this.mePaint)
-        canvas.drawArc(this.eyeRightRectF, 0f, 100f, true, this.mePaint)
+        canvas.drawArc(this.eyeLeftRectF, 0f, 360f, true, this.mePaint)
+        canvas.drawArc(this.eyeRightRectF, 0f, 360f, true, this.mePaint)
 
     }
 
