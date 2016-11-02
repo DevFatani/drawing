@@ -38,7 +38,7 @@ class Face(radius: Float) {
         this.facePaint!!.strokeCap = Paint.Cap.ROUND
         this.facePaint!!.pathEffect = CornerPathEffect(10f)
         this.facePaint!!.isAntiAlias = true
-        this.facePaint!!.setShadowLayer(4f, 2f, 2f, 0x80000000.toInt())
+        this.facePaint!!.setShadowLayer(4f, 2f, 2f, 0x33000000.toInt())
 
         this.mePaint = Paint()
         this.mePaint!!.color = 0xff2a2a2a.toInt()
