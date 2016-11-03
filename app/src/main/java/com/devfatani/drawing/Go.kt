@@ -8,4 +8,5 @@ import android.util.Log
 
 object GO {
     fun printGo() = Log.v("Go.kt", "Go Go")
+    fun sumGo(n1: Int) = 19 + 10 + n1
 }
